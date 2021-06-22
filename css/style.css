@@ -1,0 +1,29 @@
+/* @media only screen and (min-width: 1024px) {
+    body {
+        background-image: url(https://api.dujin.org/bing/1920.php);
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    body {
+        background-image: url(https://api.dujin.org/bing/m.php);
+    }
+} */
+
+body {
+    background-image: url("https://cdn.jsdelivr.net/gh/Cao0220/D2305@HEAD/img/pic1.jpg");
+    background-repeat: repeat;
+    background-size: auto;
+    background-attachment: fixed;
+    background-color: rgba(0, 0, 0, 0);
+}
+
+h1 {
+    color: #fff;
+    font-size: 8vh;
+}
+
+.word {
+    font-size: 3vh;
+    color: #fff;
+}
