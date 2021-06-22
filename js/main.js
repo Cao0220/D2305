@@ -1,6 +1,6 @@
 const el3 = document.createElement("script");
 el3.setAttribute("type", "text/javascript");
-el3.setAttribute("src", "https://cdn.jsdelivr.net/gh/Cao0220/D2305@HEAD/js/jquery.js");
+el3.setAttribute("src", "https://cdn.jsdelivr.net/gh/Cao0220/D2305@master/js/jquery.js");
 document.getElementsByTagName("body")[0].insertAdjacentElement("beforebegin", el3);
 
 var a_idx = 0;
@@ -36,7 +36,7 @@ jQuery(document).ready(function($) {
 
 const el1 = document.createElement("script");
 el1.setAttribute("type", "text/javascript");
-el1.setAttribute("src", "https://cdn.jsdelivr.net/gh/Cao0220/D2305@HEAD/live2d/autoload.js");
+el1.setAttribute("src", "https://cdn.jsdelivr.net/gh/Cao0220/D2305@master/live2d/autoload.js");
 document.getElementsByTagName("body")[0].insertAdjacentElement("afterend", el1);
 
 const el2 = document.createElement("script");
@@ -45,5 +45,5 @@ el2.setAttribute("color", "rgb(" + this.r + "," + this.g + "," + this.b + ")");
 el2.setAttribute("opacity", "0.7");
 el2.setAttribute("zIndex", "1");
 el2.setAttribute("count", "99");
-el2.setAttribute("src", "https://cdn.jsdelivr.net/gh/Cao0220/D2305@HEAD/js/canvas-nest.min.js");
+el2.setAttribute("src", "https://cdn.jsdelivr.net/gh/Cao0220/D2305@master/js/canvas-nest.min.js");
 document.getElementsByTagName("body")[0].insertAdjacentElement("afterend", el2);
