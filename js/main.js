@@ -1,3 +1,8 @@
+const el3 = document.createElement("script");
+el3.setAttribute("type", "text/javascript");
+el3.setAttribute("src", "https://cdn.jsdelivr.net/gh/Cao0220/D2305@HEAD/js/jquery.js");
+document.getElementsByTagName("body")[0].insertAdjacentElement("beforebegin", el3);
+
 var a_idx = 0;
 jQuery(document).ready(function($) {
     $("body").click(function(e) {
@@ -42,8 +47,3 @@ el2.setAttribute("zIndex", "1");
 el2.setAttribute("count", "99");
 el2.setAttribute("src", "https://cdn.jsdelivr.net/gh/Cao0220/D2305@HEAD/js/canvas-nest.min.js");
 document.getElementsByTagName("body")[0].insertAdjacentElement("afterend", el2);
-
-const el3 = document.createElement("script");
-el3.setAttribute("type", "text/javascript");
-el3.setAttribute("src", "https://cdn.jsdelivr.net/gh/Cao0220/D2305@HEAD/js/jquery.js");
-document.getElementsByTagName("body")[0].insertAdjacentElement("beforebegin", el3);
