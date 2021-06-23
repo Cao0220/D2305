@@ -1,7 +1,7 @@
 var a_idx = 0;
 jQuery(document).ready(function($) {
     $("body").click(function(e) {
-        var a = new Array("D2305", "五班进攻", "称霸效东", "富强", "文明", "和谐", "自由", "平等", "公正", "法治", "爱国", "敬业", "诚信", "友善", "Welcome", "666");
+        var a = new Array("D2305", "五班进攻", "称霸效东", "富强", "民主", "文明", "和谐", "自由", "平等", "公正", "法治", "爱国", "敬业", "诚信", "友善", "Welcome", "666");
         var $i = $("<span/>").text(a[a_idx]);
         a_idx = (a_idx + 1) % a.length;
         var x = e.pageX,
@@ -31,7 +31,7 @@ jQuery(document).ready(function($) {
 
 const el1 = document.createElement("script");
 el1.setAttribute("type", "text/javascript");
-el1.setAttribute("src", "https://cdn.jsdelivr.net/gh/Cao0220/D2305@master/live2d/autoload.js");
+el1.setAttribute("src", "https://andy666.net:8088/live2d/autoload.js");
 document.getElementsByTagName("body")[0].insertAdjacentElement("afterend", el1);
 
 const el2 = document.createElement("script");
